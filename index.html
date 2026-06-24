@@ -184,16 +184,16 @@
       --accent-dark:    #9a1a12;
       --accent-glow:    rgba(201, 36, 24, 0.75);
 
-      /* Background */
-      --bg-primary:     #0e0c0c;
-      --bg-secondary:   #161313;
-      --bg-card:        #1c1818;
-      --bg-dark:        #050404;
+      /* Background — warm charcoal, never pure black */
+      --bg-primary:     #111010;
+      --bg-secondary:   #1a1818;
+      --bg-card:        #1e1c1c;
+      --bg-dark:        #0a0909;
 
-      /* Text */
-      --text-primary:   #f4ecec;
-      --text-secondary: #c8bdbd;
-      --text-muted:     #8a8080;
+      /* Text — softer, less eye-searing */
+      --text-primary:   #eee8e8;
+      --text-secondary: #b8b0b0;
+      --text-muted:     #7a7272;
 
       /* Borders */
       --border-color:   rgba(255, 255, 255, 0.08);
@@ -358,31 +358,31 @@
       to { transform: translate(60px, 60px); }
     }
 
-    /* Radial glow */
+    /* Radial glow — subtle, warm, not theatrical */
     .hero-glow {
       position: absolute; width: 700px; height: 700px; border-radius: 50%;
-      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 65%);
+      background: radial-gradient(circle, rgba(201, 36, 24, 0.12) 0%, transparent 65%);
       top: 50%; left: 50%; transform: translate(-50%, -50%);
       pointer-events: none; z-index: 1;
     }
 
-    /* Floating orbs */
+    /* Floating orbs — very subtle ambient warmth */
     .hero-orb {
       position: absolute; border-radius: 50%; pointer-events: none;
     }
     .hero-orb-1 {
       width: 600px; height: 600px; top: 30%; left: 20%;
-      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 65%);
+      background: radial-gradient(circle, rgba(201, 36, 24, 0.06) 0%, transparent 65%);
       animation: orbFloat 12s ease-in-out infinite alternate;
     }
     .hero-orb-2 {
       width: 400px; height: 400px; bottom: 20%; right: 15%;
-      background: radial-gradient(circle, rgba(0,212,255,0.08) 0%, transparent 65%);
+      background: radial-gradient(circle, rgba(201, 36, 24, 0.04) 0%, transparent 65%);
       animation: orbFloat 15s ease-in-out infinite alternate-reverse;
     }
     .hero-orb-3 {
       width: 200px; height: 200px; top: 60%; left: 60%;
-      background: radial-gradient(circle, rgba(0,212,255,0.06) 0%, transparent 65%);
+      background: radial-gradient(circle, rgba(201, 36, 24, 0.03) 0%, transparent 65%);
       animation: orbFloat 12s ease-in-out infinite alternate;
     }
     @keyframes orbFloat {
@@ -443,7 +443,7 @@
       font-size: 1rem; font-weight: 700;
       transition: all 0.2s;
     }
-    .btn-primary:hover { background: var(--accent-dark); transform: translateY(-2px); box-shadow: 0 8px 24px var(--accent-glow); }
+    .btn-primary:hover { background: var(--accent-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(201,36,24,0.25); }
     .btn-primary svg { width: 18px; height: 18px; }
 
     .btn-outline {
@@ -577,7 +577,7 @@
     }
     .svc-card.reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
     .svc-card.reveal.visible { opacity: 1; transform: translateY(0); }
-    .svc-card:hover { transform: translateY(-6px); border-color: var(--accent); box-shadow: 0 12px 40px rgba(0,0,0,0.12); }
+    .svc-card:hover { transform: translateY(-6px); border-color: rgba(201,36,24,0.35); box-shadow: 0 16px 48px rgba(0,0,0,0.35); }
     .svc-card:hover::before { left: 125%; }
     .svc-number {
       font-family: var(--font-display);
@@ -588,9 +588,9 @@
       opacity: 0.7;
       line-height: 1;
     }
-    .svc-icon { width: 48px; height: 48px; border-radius: var(--radius-md); background: var(--accent-glow); display: flex; align-items: center; justify-content: center; transition: transform 0.3s ease; }
-    .svc-card:hover .svc-icon { transform: scale(1.1); }
-    .svc-icon i { font-size: 24px; color: var(--accent); line-height: 1; }
+    .svc-icon { width: 48px; height: 48px; border-radius: var(--radius-md); background: #1a1a1a; border: 1px solid rgba(201,36,24,0.25); display: flex; align-items: center; justify-content: center; transition: transform 0.3s ease, border-color 0.3s ease; }
+    .svc-card:hover .svc-icon { transform: scale(1.1); border-color: rgba(201,36,24,0.5); }
+    .svc-icon i { font-size: 22px; color: var(--accent); line-height: 1; }
     .svc-card h3 { font-family: var(--font-display); font-size: 1.45rem; font-weight: 700; letter-spacing: 0.01em; }
     .svc-card p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.65; }
     .svc-card a { font-family: var(--font-display); font-weight: 700; font-size: 0.82rem; letter-spacing: 0.05em; color: var(--accent); display: flex; align-items: center; gap: 6px; margin-top: auto; transition: gap 0.2s; }
@@ -678,16 +678,23 @@
     /* STATS                            */
     /* ================================ */
     .stats-section {
-      padding: 60px 24px;
+      padding: 64px 24px;
       background: var(--bg-dark);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
     }
     .stats-container {
       max-width: 900px; margin: 0 auto;
-      display: flex; justify-content: space-around; gap: 40px; flex-wrap: wrap;
+      display: flex; justify-content: center; gap: 0; flex-wrap: wrap;
     }
-    .stat-item { text-align: center; }
-    .stat-text { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; color: var(--accent); line-height: 1; }
-    .stat-label { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 8px; }
+    .stat-item {
+      text-align: center;
+      padding: 0 48px;
+      border-right: 1px solid var(--border-color);
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-text { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; color: var(--text-primary); line-height: 1; letter-spacing: 0.02em; }
+    .stat-label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 10px; font-weight: 500; }
     /* Counter animation */
     .stat-text.counting { transition: none; }
 
