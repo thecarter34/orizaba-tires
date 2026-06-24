@@ -602,6 +602,19 @@
     @media (max-width: 600px)  { .services-grid { grid-template-columns: 1fr; } }
 
     /* ================================ */
+    /* INVENTORY GALLERY                */
+    /* ================================ */
+    .inventory-section { padding: var(--section-padding); background: var(--bg-primary); }
+    .inventory-container { max-width: 1100px; margin: 0 auto; }
+    .inventory-header { text-align: center; margin-bottom: 48px; }
+    .inventory-header .section-label { color: var(--accent); font-family: var(--font-display); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; }
+    .inventory-header h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; color: var(--text-primary); margin-bottom: 12px; }
+    .inventory-header p { color: var(--text-secondary); font-size: 1.05rem; max-width: 500px; margin: 0 auto; }
+    .inventory-gallery { border-radius: var(--radius-lg); overflow: hidden; }
+    .inventory-figure { margin: 0; }
+    .inventory-figure img { width: 100%; height: auto; display: block; object-fit: cover; max-height: 520px; }
+
+    /* ================================ */
     /* ABOUT / PILLARS                  */
     /* ================================ */
     .about { padding: var(--section-padding); background: var(--bg-secondary); }
@@ -1029,7 +1042,7 @@
     </header>
     <div class="services-grid" role="list">
       <article class="svc-card reveal" role="listitem">
-        <div class="svc-card-image" style="background-image: url('images/service-tires.jpg');" aria-hidden="true"></div>
+        <div class="svc-card-image" style="background-image: url('images/tire-display.jpg');" aria-hidden="true"></div>
         <span class="svc-number">01</span>
         <div class="svc-icon"><i class="ph-fill ph-tire"></i></div>
         <h3>Tires &amp; Wheels</h3>
@@ -1060,6 +1073,22 @@
         <p>You name it, we work on it. Diagnostics, batteries, belts, hoses, alternators, starters &mdash; bring it in and we&rsquo;ll figure out what&rsquo;s wrong and what it costs.</p>
         <a href="tel:+17155140019">Call for a quote <i class="ph ph-arrow-right"></i></a>
       </article>
+    </div>
+  </section>
+
+  <!-- INVENTORY GALLERY -->
+  <section class="inventory-section" aria-labelledby="inventory-heading">
+    <div class="inventory-container">
+      <div class="inventory-header reveal">
+        <p class="section-label">What We Carry &middot; Inventory</p>
+        <h2 id="inventory-heading">Huge Selection. Fair Prices.</h2>
+        <p>New tires, used tires, and wheels &mdash; in stock and ready to install the same day.</p>
+      </div>
+      <div class="inventory-gallery reveal">
+        <figure class="inventory-figure">
+          <img src="images/tire-display.jpg" alt="Wall of new and used tires in stock at Orizaba Tires & Auto Service, Eau Claire" loading="lazy" />
+        </figure>
+      </div>
     </div>
   </section>
 
@@ -1104,7 +1133,7 @@
       </div>
       <div class="about-image reveal">
         <figure class="about-graphic">
-          <img src="images/hero-shop-real.jpg" alt="Inside Orizaba Tires &amp; Auto Service &mdash; new and used tire inventory in Eau Claire, WI" loading="lazy" width="450" height="450" />
+          <img src="images/storefront.jpg" alt="Orizaba Tires &amp; Auto Service storefront on Mall Dr, Eau Claire, WI" loading="lazy" width="450" height="450" />
         </figure>
       </div>
     </div>
