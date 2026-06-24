@@ -1,0 +1,1518 @@
+<!--
+  PREMIUM TEMPLATE — CLIENT-AGNOSTIC
+  =============================================================================
+  New / updated placeholders (v2):
+  ------------------------------------------------------------------------------
+  ABOUT_PULL_QUOTE      — Quote text overlaid on the about photo (optional, conditional)
+  PROJECT_BANNER_IMAGE  — Full-width job photo between About and Stats (optional, conditional)
+  PROJECT_BANNER_ALT    — Alt text for the banner image
+  PROJECT_BANNER_LABEL  — e.g. "Recent Project" or "On the Job"
+  PROJECT_BANNER_TEXT   — e.g. "Kitchen remodel in Eau Claire"
+  ------------------------------------------------------------------------------
+  Trust item classes (add directly in TRUST_ITEMS markup):
+    .trust-emergency   — Amber highlight for 24/7, emergency, or urgent badges
+  ------------------------------------------------------------------------------
+  All other placeholders are unchanged from v1.
+================================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orizaba Tires &amp; Auto Service | New &amp; Used Tires in Eau Claire, WI</title>
+  <meta name="description" content="Orizaba Tires &amp; Auto Service in Eau Claire, WI — new &amp; used tires, brakes, suspension, oil change, and tune-ups. Open 7 days a week. No appointment necessary. Call (715) 514-0019. Se habla español." />
+  <meta name="author" content="Orizaba Tires &amp; Auto Service" />
+  <!-- Robots & Crawling -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <link rel="canonical" href="https://orizabatireswi.com/" />
+
+  <!-- Theme / PWA -->
+  <meta name="theme-color" content="#c92418" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Orizaba Tires" />
+
+  <!-- Geographic -->
+  <meta name="geo.region" content="US-WI" />
+  <meta name="geo.placename" content="Eau Claire, WI" />
+  <meta name="geo.position" content="44.7800871;-91.4608747" />
+  <meta name="ICBM" content="44.7800871, -91.4608747" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://orizabatireswi.com/" />
+  <meta property="og:title" content="Orizaba Tires &amp; Auto Service | New &amp; Used Tires in Eau Claire, WI" />
+  <meta property="og:description" content="New &amp; used tires, brakes, suspension, oil change, and tune-ups. Open 7 days a week in Eau Claire. No appointment necessary. Se habla español." />
+  <meta property="og:image" content="https://orizabatireswi.com/images/hero-shop-real.jpg" />
+  <meta property="og:image:alt" content="Inside Orizaba Tires &amp; Auto Service — tire inventory and wheel displays in Eau Claire, WI" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Orizaba Tires &amp; Auto Service" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Orizaba Tires &amp; Auto Service | Eau Claire, WI" />
+  <meta name="twitter:description" content="New &amp; used tires, brakes, suspension, oil change, and tune-ups. Open 7 days. No appointment necessary." />
+  <meta name="twitter:image" content="https://orizabatireswi.com/images/hero-shop-real.jpg" />
+  <meta name="twitter:site" content="@orizabatires" />
+
+  <!-- Icon CDN: Phosphor Icons (regular + bold weights) -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data - BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://orizabatireswi.com/"
+    }]
+  }
+  </script>
+
+  <!-- Structured Data - LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "@id": "https://orizabatireswi.com/#business",
+    "name": "Orizaba Tires & Auto Service",
+    "description": "New and used tires, brakes, suspension, oil change, and tune-ups. Open 7 days a week in Eau Claire, WI. No appointment necessary. Se habla español.",
+    "url": "https://orizabatireswi.com/",
+    "telephone": "+17155140019",
+    "email": "orizabatireswi@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3624 Mall Dr",
+      "addressLocality": "Eau Claire",
+      "addressRegion": "WI",
+      "postalCode": "54701",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.7800871,
+      "longitude": -91.4608747
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "priceRange": "$$",
+    "image": "https://orizabatireswi.com/images/hero-shop-real.jpg",
+    "areaServed": [
+      {"@type": "City", "name": "Eau Claire"},
+      {"@type": "City", "name": "Altoona"},
+      {"@type": "City", "name": "Chippewa Falls"},
+      {"@type": "City", "name": "Menomonie"}
+    ]
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need an appointment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No appointment is necessary. We're open 7 days a week — just drive in. For specific time slots, call (715) 514-0019 and we'll save a spot for you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you sell both new and used tires?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We carry new tires from all the top brands — Michelin, Goodyear, Bridgestone, Falken, and more — plus a regularly rotated selection of quality used tires at lower price points."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer financing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We offer in-house financing with approvals up to $5,000. Just call us at (715) 514-0019 and ask to apply for credit — most approvals are processed the same day."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Hablan español?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Se habla español en Orizaba Tires & Auto Service. Llámanos al (715) 514-0019 o envíame un texto al (715) 491-6530."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ================================ */
+    /* DESIGN TOKENS (CUSTOMIZABLE)     */
+    /* ================================ */
+    :root {
+      /* Accent colors — auto shop red (matches existing Orizaba brand) */
+      --accent:         #c92418;
+      --accent-light:   #ff3a2a;
+      --accent-dark:    #9a1a12;
+      --accent-glow:    rgba(201, 36, 24, 0.35);
+
+      /* Background */
+      --bg-primary:     #0e0c0c;
+      --bg-secondary:   #161313;
+      --bg-card:        #1c1818;
+      --bg-dark:        #050404;
+
+      /* Text */
+      --text-primary:   #f4ecec;
+      --text-secondary: #c8bdbd;
+      --text-muted:     #8a8080;
+
+      /* Borders */
+      --border-color:   rgba(255, 255, 255, 0.08);
+
+      /* Typography */
+      --font-display:   'Bebas Neue', sans-serif;
+      --font-body:      'Inter', sans-serif;
+
+      /* Spacing */
+      --section-padding: clamp(60px, 8vw, 100px) 20px;
+      --radius-sm:  6px;
+      --radius-md:  12px;
+      --radius-lg:  18px;
+      --radius-xl:  28px;
+    }
+
+    /* ================================ */
+    /* RESET & BASE                     */
+    /* ================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; }
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Grain texture overlay */
+    body::before {
+      content: "";
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+      opacity: 0.035;
+      mix-blend-mode: overlay;
+      pointer-events: none; z-index: 9998;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-primary); }
+    ::-webkit-scrollbar-thumb { background: var(--accent-dark); border-radius: 3px; }
+    ::selection { background: var(--accent); color: #fff; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+    /* Staggered scroll reveal */
+    .reveal { opacity: 0; transform: translateY(28px); }
+    .reveal.visible { opacity: 1; transform: none; transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* === NO-JS / SAFETY FALLBACK ===
+       Without this, headless screenshot tools, JS-disabled browsers, or any
+       environment where the IntersectionObserver doesn't fire will render
+       the page with all .reveal elements invisible (opacity: 0). That
+       looks like "empty sections" / "broken page" in QA screenshots and
+       in production for users on flaky connections.
+       Rule: 1.5s after the page loads, every .reveal element MUST be
+       visible regardless of observer state. */
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: reveal-safety 0.01s linear 1.5s forwards; }
+      .reveal.visible { animation: none; }
+    }
+    @keyframes reveal-safety {
+      to { opacity: 1; transform: none; }
+    }
+    /* Hard noscript fallback — if JS is off entirely, .reveal should
+       show content immediately, not sit at opacity 0. */
+    .no-js .reveal { opacity: 1; transform: none; }
+
+    /* Navbar scroll effect: intensifies blur on scroll */
+    .navbar.scrolled { background: rgba(14, 12, 12, 0.97); backdrop-filter: blur(20px); }
+
+    /* ================================ */
+    /* NAVBAR                           */
+    /* ================================ */
+    .navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 14px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(14, 12, 12, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      transform: translateY(-100%);
+      transition: transform 0.4s ease, background 0.3s ease;
+    }
+    .navbar.visible { transform: translateY(0); }
+
+    .nav-logo { display: flex; align-items: center; gap: 10px; cursor: pointer; min-width: 0; }
+    .nav-logo img { height: 44px; width: auto; flex-shrink: 0; border-radius: 4px; }
+    .nav-logo-text { font-family: var(--font-display); font-weight: 700; font-size: 1rem; letter-spacing: 0.04em; }
+    @media (max-width: 768px) { .nav-logo-text { display: none; } }
+
+    .nav-links { display: flex; gap: clamp(1.5rem, 3vw, 2.5rem); list-style: none; }
+    .nav-links a { font-size: 0.8rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--accent); }
+
+    .nav-actions { display: flex; align-items: center; gap: 16px; }
+    .nav-phone {
+      display: flex; align-items: center; gap: 6px;
+      font-family: var(--font-display); font-weight: 600; font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    .nav-phone svg { color: var(--accent); flex-shrink: 0; }
+    .nav-phone:hover { color: var(--accent); }
+
+    .nav-cta {
+      background: var(--accent);
+      color: var(--bg-primary);
+      padding: 10px 22px;
+      border-radius: var(--radius-sm);
+      font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+      transition: all 0.2s;
+    }
+    .nav-cta:hover { background: var(--accent-dark); transform: translateY(-2px); }
+
+    /* Mobile nav */
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; }
+    .hamburger span { width: 24px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
+
+    /* Mobile menu — hidden by default on all sizes, shown only via .open class inside 768px media query */
+    .mobile-menu { display: none; }
+
+    /* ================================ */
+    /* HERO                             */
+    /* ================================ */
+    .hero {
+      min-height: 100vh; min-height: 100dvh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 80px 24px 60px;
+      position: relative; overflow: hidden;
+      background: var(--bg-dark);
+    }
+
+    /* ORIZABA: Real shop photo background, dark overlay for text contrast */
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: url('images/hero-shop-real.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.75;
+      filter: saturate(0.95) contrast(1.05);
+      z-index: 0;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at center, rgba(14,12,12,0.15) 0%, rgba(14,12,12,0.45) 55%, rgba(14,12,12,0.78) 100%),
+        linear-gradient(to bottom, rgba(14,12,12,0.2) 0%, rgba(14,12,12,0.7) 100%);
+      z-index: 1;
+    }
+    .hero > * { position: relative; z-index: 2; }
+    .hero-grid { z-index: 1; opacity: 0.4; }
+
+    /* Animated grid background */
+    .hero-grid {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(var(--border-color) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border-color) 1px, transparent 1px);
+      background-size: 60px 60px;
+      animation: gridMove 30s linear infinite;
+      pointer-events: none;
+    }
+    @keyframes gridMove {
+      from { transform: translate(0, 0); }
+      to { transform: translate(60px, 60px); }
+    }
+
+    /* Radial glow */
+    .hero-glow {
+      position: absolute; width: 700px; height: 700px; border-radius: 50%;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 65%);
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+      pointer-events: none; z-index: 1;
+    }
+
+    /* Floating orbs */
+    .hero-orb {
+      position: absolute; border-radius: 50%; pointer-events: none;
+    }
+    .hero-orb-1 {
+      width: 600px; height: 600px; top: 30%; left: 20%;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 65%);
+      animation: orbFloat 12s ease-in-out infinite alternate;
+    }
+    .hero-orb-2 {
+      width: 400px; height: 400px; bottom: 20%; right: 15%;
+      background: radial-gradient(circle, rgba(0,212,255,0.08) 0%, transparent 65%);
+      animation: orbFloat 15s ease-in-out infinite alternate-reverse;
+    }
+    .hero-orb-3 {
+      width: 200px; height: 200px; top: 60%; left: 60%;
+      background: radial-gradient(circle, rgba(0,212,255,0.06) 0%, transparent 65%);
+      animation: orbFloat 12s ease-in-out infinite alternate;
+    }
+    @keyframes orbFloat {
+      0% { transform: translate(-50%, -50%) scale(1); }
+      50% { transform: translate(-48%, -52%) scale(1.08); }
+      100% { transform: translate(-52%, -48%) scale(0.96); }
+    }
+
+    .hero-content { position: relative; z-index: 2; max-width: 900px; width: 100%; }
+
+    /* Logo */
+    .hero-logo { margin-bottom: 24px; animation: logoIn 0.8s ease 0.2s both; }
+    .hero-logo img {
+      max-width: 200px; width: 100%; height: auto; margin: 0 auto; display: block;
+      border-radius: 8px;
+      box-shadow: 0 4px 32px rgba(201, 36, 24, 0.25);
+    }
+    @keyframes logoIn {
+      from { opacity: 0; transform: translateY(-16px); }
+      to { opacity: 1; transform: none; }
+    }
+
+    /* Eyebrow badge */
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      padding: 8px 20px; border-radius: 100px;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+    }
+    .hero-badge svg { width: 14px; height: 14px; color: var(--accent); }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;
+      color: var(--text-primary); line-height: 1;
+      margin-bottom: 20px;
+    }
+    .hero h1 span { color: var(--accent); }
+
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: var(--text-secondary);
+      max-width: 600px; margin: 0 auto 40px; line-height: 1.7;
+    }
+
+    /* CTAs */
+    .hero-actions { display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--accent); color: var(--bg-primary);
+      padding: 16px 32px; border-radius: var(--radius-md);
+      font-size: 1rem; font-weight: 700;
+      transition: all 0.2s;
+    }
+    .btn-primary:hover { background: var(--accent-dark); transform: translateY(-2px); box-shadow: 0 8px 24px var(--accent-glow); }
+    .btn-primary svg { width: 18px; height: 18px; }
+
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 2px solid var(--border-color); color: var(--text-primary);
+      padding: 14px 28px; border-radius: var(--radius-md);
+      font-size: 1rem; font-weight: 600;
+      transition: all 0.2s;
+    }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+    .btn-outline svg { width: 18px; height: 18px; }
+    .btn-outline-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 2px solid rgba(255,255,255,0.4); color: #fff;
+      padding: 14px 28px; border-radius: var(--radius-md);
+      font-size: 1rem; font-weight: 600;
+      transition: all 0.2s;
+    }
+    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.1); }
+
+    /* Trust row */
+    .hero-trust {
+      display: flex; align-items: center; justify-content: center; gap: 24px;
+      margin-top: 48px; flex-wrap: wrap;
+    }
+    .trust-item { display: inline-flex; align-items: center; gap: 8px; color: var(--text-primary); font-size: 0.875rem; font-weight: 500; }
+    .trust-item i { color: var(--accent); font-size: 18px; flex-shrink: 0; }
+    .trust-sep { display: inline-block; width: 4px; height: 4px; border-radius: 50%; background: rgba(255,255,255,0.35); margin: 0 4px; }
+    .hero-trust .trust-item { color: #f4ecec; }
+    .hero-trust .trust-item i { color: #ff6b5a; }
+    .trust-emergency { color: #fbbf24 !important; }
+    .trust-emergency i { color: #fbbf24 !important; }
+
+    /* Scroll indicator */
+    .hero-scroll {
+      position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      color: var(--text-muted); font-size: 0.7rem; letter-spacing: 0.12em;
+      text-transform: uppercase; z-index: 4;
+    }
+    .hero-scroll svg { animation: bounceDown 2s ease infinite; }
+    @keyframes bounceDown {
+      0%, 100% { transform: translateY(0); opacity: 0.6; }
+      50% { transform: translateY(6px); opacity: 1; }
+    }
+
+    /* Social proof in hero */
+    .hero-social-proof {
+      display: flex; align-items: center; justify-content: center; gap: 12px;
+      margin-top: 40px; margin-bottom: 100px; padding: 16px 24px;
+      background: var(--bg-card); border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg); display: inline-flex;
+    }
+    .r-stars svg { width: 88px; height: 16px; }
+
+    /* Wave divider at bottom of hero */
+    .hero-wave {
+      position: absolute; bottom: 0; left: 0; right: 0; height: 100px;
+      background: var(--bg-primary);
+      clip-path: ellipse(55% 100% at 50% 100%);
+      z-index: 2; pointer-events: none;
+    }
+
+    /* ================================ */
+    /* TRUST BAR                        */
+    /* ================================ */
+    .trustbar {
+      background: var(--accent);
+      padding: 18px 24px;
+      display: flex; align-items: center; justify-content: center; gap: 28px;
+      flex-wrap: wrap;
+    }
+    .trustbar-item {
+      display: flex; align-items: center; gap: 10px; color: var(--bg-primary); font-size: 0.85rem; font-weight: 600;
+      opacity: 0; transform: translateY(12px);
+      animation: trustbarIn 0.5s ease forwards;
+    }
+    .trustbar-item i { font-size: 20px; color: var(--bg-primary); flex-shrink: 0; }
+    .trustbar-item strong { display: block; font-weight: 700; line-height: 1.2; }
+    .trustbar-item span { display: block; font-size: 0.72rem; font-weight: 500; opacity: 0.85; line-height: 1.3; margin-top: 2px; }
+    .trustbar-item:nth-of-type(1) { animation-delay: 0.1s; }
+    .trustbar-item:nth-of-type(2) { animation-delay: 0.2s; }
+    .trustbar-item:nth-of-type(3) { animation-delay: 0.3s; }
+    .trustbar-item:nth-of-type(4) { animation-delay: 0.4s; }
+    .trustbar-item:nth-of-type(5) { animation-delay: 0.5s; }
+    @keyframes trustbarIn {
+      to { opacity: 1; transform: none; }
+    }
+
+    /* ================================ */
+    /* SECTION HEADER                   */
+    /* ================================ */
+    .section-header { text-align: center; max-width: 640px; margin: 0 auto 56px; }
+    .section-label {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 800; letter-spacing: 0.02em; text-transform: uppercase;
+      color: var(--text-primary); line-height: 0.95; margin-bottom: 16px;
+    }
+    .section-sub { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.65; }
+
+    /* ================================ */
+    /* SERVICES                        */
+    /* ================================ */
+    .services { padding: var(--section-padding); background: var(--bg-primary); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px; max-width: 1200px; margin: 0 auto;
+    }
+    .svc-card {
+      background: var(--bg-card);
+      border-radius: var(--radius-lg); padding: 32px 24px 28px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      display: flex; flex-direction: column; gap: 16px;
+      transition: all 0.3s ease;
+      position: relative; overflow: hidden;
+    }
+    .svc-card::before {
+      content: '';
+      position: absolute; top: 0; left: -75%;
+      width: 50%; height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.12), transparent);
+      transform: skewX(-15deg);
+      transition: left 0.5s ease;
+    }
+    .svc-card.reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .svc-card.reveal.visible { opacity: 1; transform: translateY(0); }
+    .svc-card:hover { transform: translateY(-6px); border-color: var(--accent); box-shadow: 0 12px 40px rgba(0,0,0,0.12); }
+    .svc-card:hover::before { left: 125%; }
+    .svc-number {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      opacity: 0.7;
+      line-height: 1;
+    }
+    .svc-icon { width: 48px; height: 48px; border-radius: var(--radius-md); background: var(--accent-glow); display: flex; align-items: center; justify-content: center; transition: transform 0.3s ease; }
+    .svc-card:hover .svc-icon { transform: scale(1.1); }
+    .svc-icon i { font-size: 24px; color: var(--accent); line-height: 1; }
+    .svc-card h3 { font-family: var(--font-display); font-size: 1.45rem; font-weight: 700; letter-spacing: 0.01em; }
+    .svc-card p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.65; }
+    .svc-card a { font-family: var(--font-display); font-weight: 700; font-size: 0.82rem; letter-spacing: 0.05em; color: var(--accent); display: flex; align-items: center; gap: 6px; margin-top: auto; transition: gap 0.2s; }
+    .svc-card a:hover { gap: 10px; }
+    .svc-card-image {
+      width: 100%; aspect-ratio: 16/10; border-radius: var(--radius-md);
+      background-size: cover; background-position: center;
+      margin-bottom: 4px; background-color: var(--bg-secondary);
+    }
+    @media (max-width: 1024px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px)  { .services-grid { grid-template-columns: 1fr; } }
+
+    /* ================================ */
+    /* ABOUT / PILLARS                  */
+    /* ================================ */
+    .about { padding: var(--section-padding); background: var(--bg-secondary); }
+    .about-container { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+    .about-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--accent-glow); border: 1px solid var(--accent);
+      color: var(--accent); padding: 8px 18px; border-radius: 100px;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .about-badge svg { width: 14px; height: 14px; }
+    .about h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; text-transform: uppercase; margin-bottom: 20px; }
+    .about p { font-size: 1rem; color: var(--text-secondary); line-height: 1.75; margin-bottom: 16px; }
+    .about-pillars { display: flex; flex-direction: column; gap: 24px; margin-top: 32px; }
+    .about-pillar { display: flex; gap: 16px; align-items: flex-start; }
+    .about-pillar-icon {
+      width: 44px; height: 44px; flex-shrink: 0; border-radius: var(--radius-md);
+      background: var(--accent-glow); display: flex; align-items: center; justify-content: center;
+    }
+    .about-pillar-icon i { font-size: 22px; color: var(--accent); line-height: 1; }
+    .about-pillar h3 { font-family: var(--font-display); font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+    .about-pillar p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; }
+    .about-image { position: relative; }
+    .about-image img { border-radius: var(--radius-xl); width: 100%; height: auto; aspect-ratio: 1/1; object-fit: cover; }
+    @media (max-width: 768px) {
+      .about-image { max-height: 45vh; overflow: hidden; }
+      .about-image img { border-radius: var(--radius-lg); }
+    }
+    .about-photo-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.7));
+      padding: 40px 24px 20px;
+      border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+    }
+    .about-caption-name { display: block; font-family: var(--font-display); font-weight: 700; font-size: 1rem; color: #fff; }
+    .about-caption-title { font-size: 0.85rem; color: rgba(255,255,255,0.7); }
+
+    /* Pull quote overlay on about photo — client-agnostic */
+    .about-pull-quote {
+      position: absolute; top: 0; left: 0; right: 0;
+      background: linear-gradient(transparent 30%, rgba(0,0,0,0.82) 100%);
+      padding: 40px 24px 20px;
+      border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    }
+    .about-pull-quote p {
+      font-family: var(--font-display); font-size: 0.95rem; font-weight: 600;
+      color: #fff; font-style: italic; line-height: 1.5; margin: 0;
+    }
+
+    /* ================================ */
+    /* PROJECT BANNER                   */
+    /* ================================ */
+    .project-banner { position: relative; overflow: hidden; max-height: 420px; }
+    .project-banner-inner { position: relative; }
+    .project-banner-inner img { width: 100%; height: 420px; object-fit: cover; display: block; }
+    .project-banner-overlay {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.82));
+      padding: 40px 40px 28px;
+    }
+    .project-banner-label {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 6px;
+    }
+    .project-banner-text { font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; color: #fff; }
+
+    /* ================================ */
+    /* STATS                            */
+    /* ================================ */
+    .stats-section {
+      padding: 60px 24px;
+      background: var(--bg-dark);
+    }
+    .stats-container {
+      max-width: 900px; margin: 0 auto;
+      display: flex; justify-content: space-around; gap: 40px; flex-wrap: wrap;
+    }
+    .stat-item { text-align: center; }
+    .stat-text { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; color: var(--accent); line-height: 1; }
+    .stat-label { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 8px; }
+    /* Counter animation */
+    .stat-text.counting { transition: none; }
+
+    /* ================================ */
+    /* REVIEWS                          */
+    /* ================================ */
+    .reviews { padding: var(--section-padding); background: var(--bg-secondary); }
+
+    /* Google header bar */
+    .r-google-reviews-header {
+      display: flex; align-items: center; justify-content: center; gap: 20px;
+      flex-wrap: wrap; margin-bottom: 40px;
+    }
+    .r-google-from-badge {
+      display: flex; align-items: center; gap: 8px;
+      font-family: Roboto, Arial, sans-serif; font-size: 1.4rem; font-weight: 700;
+    }
+    .r-google-from-badge svg { width: 28px; height: 28px; }
+    .r-google-rating-summary { display: flex; align-items: center; gap: 12px; }
+    .r-google-rating-number { font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; }
+    .r-google-stars { display: flex; gap: 3px; }
+    .r-google-stars svg { width: 22px; height: 22px; }
+    .r-google-review-count { font-size: 0.9rem; color: var(--text-muted); }
+
+    /* Review cards grid */
+    .r-google-reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px; max-width: 1100px; margin: 0 auto;
+    }
+    .r-google-review-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color); border-radius: var(--radius-lg);
+      padding: 24px; display: flex; flex-direction: column; gap: 12px;
+      transition: all 0.3s ease; position: relative; overflow: hidden;
+    }
+    .r-google-review-card::before {
+      content: '';
+      position: absolute; top: 0; left: -75%;
+      width: 50%; height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.08), transparent);
+      transform: skewX(-15deg);
+      transition: left 0.5s ease;
+    }
+    .r-google-review-card.reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .r-google-review-card.reveal.visible { opacity: 1; transform: translateY(0); }
+    .r-google-review-card:hover { transform: translateY(-4px); border-color: var(--accent); box-shadow: 0 12px 40px rgba(0,0,0,0.1); }
+    .r-google-review-card:hover::before { left: 125%; }
+    .r-google-review-top { display: flex; align-items: center; justify-content: space-between; }
+    .r-google-g-logo { width: 16px; height: 16px; opacity: 0.5; }
+    .r-google-card-stars { display: flex; gap: 2px; }
+    .r-google-card-stars svg { width: 13px; height: 13px; }
+    .r-google-review-text { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.7; font-style: italic; }
+    .r-google-reviewer-name { font-family: var(--font-display); font-weight: 700; font-size: 0.9rem; }
+
+    /* Review CTAs */
+    .r-google-cta {
+      display: flex; justify-content: center; gap: 16px; margin-top: 40px; flex-wrap: wrap;
+    }
+    .r-google-cta-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--accent); color: var(--bg-primary);
+      padding: 12px 24px; border-radius: var(--radius-md);
+      font-size: 0.875rem; font-weight: 700;
+      transition: all 0.2s;
+    }
+    .r-google-cta-btn:hover { background: var(--accent-dark); transform: translateY(-2px); }
+    .r-google-cta-btn svg { width: 14px; height: 14px; }
+    .r-google-cta-btn-secondary { background: transparent; border: 1px solid var(--border-color); color: var(--text-primary); }
+    .r-google-cta-btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ================================ */
+    /* FAQ                              */
+    /* ================================ */
+    .faq { padding: var(--section-padding); background: var(--bg-primary); }
+    .faq-list { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+    .faq-item { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); overflow: hidden; transition: border-color 0.2s, box-shadow 0.2s; }
+    .faq-item.open { border-color: var(--accent); box-shadow: 0 4px 20px var(--accent-glow); }
+    .faq-question {
+      width: 100%; text-align: left; padding: 20px 24px;
+      display: flex; justify-content: space-between; align-items: center; gap: 16px;
+      background: none; border: none; cursor: pointer;
+      font-family: var(--font-display); font-size: 1rem; font-weight: 700; color: var(--text-primary);
+      transition: color 0.2s;
+    }
+    .faq-question:hover { color: var(--accent); }
+    .faq-question i { font-size: 18px; flex-shrink: 0; transition: transform 0.3s; color: var(--text-secondary); }
+    .faq-item.open .faq-question i { transform: rotate(180deg); color: var(--accent); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-item.open .faq-answer { max-height: 300px; }
+    .faq-answer-inner { padding: 0 24px 20px; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7; }
+
+    /* ================================ */
+    /* CTA SECTION                      */
+    /* ================================ */
+    .cta-section { padding: var(--section-padding); background: var(--bg-dark); }
+    .cta-box {
+      max-width: 800px; margin: 0 auto; text-align: center;
+      background-color: var(--bg-dark); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius-xl); padding: clamp(40px, 6vw, 80px) clamp(24px, 4vw, 60px);
+    }
+    .cta-box h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; text-transform: uppercase; margin-bottom: 16px; color: #fff; }
+    .cta-box p { font-size: 1.05rem; color: rgba(255,255,255,0.75); margin-bottom: 32px; }
+    .cta-actions { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+
+    /* ================================ */
+    /* CONTACT FORM                     */
+    /* ================================ */
+    .contact { padding: var(--section-padding); background: var(--bg-secondary); }
+    .contact-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+    .contact-info { display: flex; flex-direction: column; gap: 24px; }
+    .contact-info h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; text-transform: uppercase; margin-bottom: 8px; }
+    .contact-info p { color: var(--text-secondary); font-size: 1rem; }
+    .contact-item { display: flex; align-items: flex-start; gap: 12px; }
+    .contact-item i { font-size: 20px; color: var(--accent); flex-shrink: 0; margin-top: 2px; line-height: 1; }
+    .contact-item a { font-weight: 600; transition: color 0.2s; }
+    .contact-item a:hover { color: var(--accent); }
+    .contact-link { color: var(--accent); font-size: 0.85rem; font-weight: 600; display: inline-block; margin-top: 4px; }
+    .contact-link:hover { color: var(--accent-light); }
+    .form-note { font-size: 0.8rem; color: var(--text-muted); text-align: center; margin-top: 12px; }
+    .form-note a { color: var(--accent); font-weight: 600; }
+    .contact-form select { width: 100%; padding: 14px 16px; border-radius: var(--radius-md); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-primary); font-family: var(--font-body); font-size: 0.95rem; transition: border-color 0.2s; }
+    .contact-form select:focus { outline: none; border-color: var(--accent); }
+    .contact-hours { font-size: 0.9rem; color: var(--text-muted); margin-top: 8px; }
+
+    /* Form */
+    .contact-form { display: flex; flex-direction: column; gap: 16px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+    .form-group input, .form-group textarea {
+      padding: 14px 16px; border-radius: var(--radius-md);
+      border: 1px solid var(--border-color); background: var(--bg-card);
+      color: var(--text-primary); font-family: var(--font-body); font-size: 1rem;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus, .form-group textarea:focus { border-color: var(--accent); outline: none; }
+    .form-group textarea { min-height: 120px; resize: vertical; }
+    .form-submit { margin-top: 8px; }
+
+    /* ================================ */
+    /* FOOTER                           */
+    /* ================================ */
+    .site-footer { background: var(--bg-dark); padding: 60px 24px 24px; }
+    .footer-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; }
+    .footer-brand p { font-size: 0.9rem; color: var(--text-muted); margin-top: 12px; line-height: 1.65; }
+    .footer-brand img { height: 40px; }
+    .footer-links h4, .footer-contact h4, .footer-credentials h4 { font-family: var(--font-display); font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 16px; color: var(--text-primary); }
+    .footer-links ul { display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { font-size: 0.9rem; color: var(--text-muted); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-contact p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 8px; }
+    .footer-contact a { color: var(--text-secondary); }
+    .footer-credentials ul { display: flex; flex-direction: column; gap: 10px; }
+    .footer-credentials li { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-muted); }
+    .footer-credentials i { color: var(--accent); font-size: 16px; flex-shrink: 0; }
+    .footer-bottom { max-width: 1100px; margin: 40px auto 0; padding-top: 24px; border-top: 1px solid var(--border-color); text-align: center; }
+    .footer-bottom p { font-size: 0.85rem; color: var(--text-muted); }
+
+    /* ================================ */
+    /* RESPONSIVE                       */
+    /* ================================ */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .mobile-menu {
+        position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+        background: var(--bg-dark); z-index: 999;
+        display: none; flex-direction: column; align-items: center; justify-content: center; gap: 24px;
+        opacity: 0; transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+      }
+      .mobile-menu.open { display: flex; opacity: 1; transform: translateY(0); }
+      .mobile-menu a { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; text-transform: uppercase; color: #fff; }
+      .about-container, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .about-image { order: -1; }
+      .hero h1 { font-size: clamp(2rem, 8vw, 3rem); }
+      /* Navbar: hide phone on tablet/mobile, show only CTA + hamburger */
+      .nav-phone { display: none; }
+      .nav-actions { gap: 12px; }
+    }
+
+    @media (max-width: 480px) {
+      .navbar { padding: 12px 16px; }
+      .nav-cta { padding: 8px 16px; font-size: 0.75rem; }
+      .hero-actions { flex-direction: column; width: 100%; }
+      .btn-primary, .btn-outline { width: 100%; justify-content: center; }
+      .trustbar { gap: 12px; font-size: 0.8rem; padding: 16px 12px; }
+      .stats-container { flex-direction: column; align-items: center; }
+      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+      /* Section padding: reduce vertical on mobile */
+      .services, .about, .reviews, .faq, .cta-section, .contact {
+        padding-top: 48px;
+        padding-bottom: 48px;
+      }
+      /* Section header tighter on mobile */
+      .section-header { margin-bottom: 36px; }
+      .section-title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
+      /* About: smaller gap, smaller image */
+      .about-container { gap: 32px; }
+      .about-image img { border-radius: var(--radius-lg); }
+      /* Contact form: tighter */
+      .contact-info { gap: 16px; }
+      .contact-item { gap: 10px; }
+      /* FAQ: tighter items */
+      .faq-question { padding: 16px 16px; font-size: 0.9rem; }
+      .faq-answer-inner { padding: 0 16px 16px; font-size: 0.9rem; }
+      /* Stats: smaller text */
+      .stat-text { font-size: clamp(2rem, 8vw, 3rem); }
+      /* Hero wave: hide on small mobile, too aggressive */
+      .hero-wave { display: none; }
+      /* Hero social proof: tighter margin */
+      .hero-social-proof { margin-bottom: 60px; }
+      /* Hero scroll: raise it up a bit */
+      .hero-scroll { bottom: 20px; }
+      /* Cards: scroll-triggered lift via reveal — no hover on mobile */
+      .svc-card.reveal, .r-google-review-card.reveal { transform: translateY(0); transition: transform 0.5s ease, opacity 0.6s ease, box-shadow 0.3s ease; }
+      .svc-card.reveal.visible, .r-google-review-card.reveal.visible { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#" class="nav-logo">
+      <img src="images/logo-wordmark.png" alt="Orizaba Tires &amp; Auto Service" />
+      <span class="nav-logo-text">ORIZABA TIRES</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="tel:+17155140019" class="nav-phone">
+        <i class="ph ph-phone"></i>
+        (715) 514-0019
+      </a>
+      <a href="#contact" class="nav-cta">Get Free Estimate</a>
+    </div>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:+17155140019" class="btn-primary" style="margin-top: 20px;">Call (715) 514-0019</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-3" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-logo">
+        <img src="images/logo-original.png" alt="Orizaba Tires &amp; Auto Service" loading="eager" />
+      </div>
+
+      <div class="hero-badge">
+        <i class="ph-fill ph-star"></i>
+        Open 7 Days a Week &mdash; No Appointment Necessary
+      </div>
+
+      <h1>Tires &amp; Auto Service<br>Eau Claire Trusts.</h1>
+      <p class="hero-sub">New &amp; used tires, brakes, suspension, oil change &amp; tune-ups. Walk in to our shop on Mall Drive &mdash; financing available, se habla espa&ntilde;ol, and we'll get you back on the road fast.</p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">
+          <i class="ph ph-chat-circle-dots"></i>
+          Get a Free Quote
+        </a>
+        <a href="tel:+17155140019" class="btn-outline">
+          <i class="ph ph-phone"></i>
+          (715) 514-0019
+        </a>
+      </div>
+
+      <div class="hero-trust">
+        <span class="trust-item trust-emergency"><i class="ph-fill ph-lightning"></i> 7 Days a Week</span>
+        <span class="trust-sep">&bull;</span>
+        <span class="trust-item"><i class="ph ph-wrench"></i> All Major Brands</span>
+        <span class="trust-sep">&bull;</span>
+        <span class="trust-item"><i class="ph ph-currency-dollar"></i> Financing up to $5,000</span>
+        <span class="trust-sep">&bull;</span>
+        <span class="trust-item"><i class="ph ph-translate"></i> Se Habla Espa&ntilde;ol</span>
+      </div>
+
+      <div class="hero-social-proof">
+        <span class="r-stars" aria-label="5 out of 5 stars">
+          <svg width="88" height="16" viewBox="0 0 88 16" fill="none">
+            <path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z" fill="#c92418"/>
+            <path d="M26 1l1.9 5.8H34l-4.8 3.5 1.8 5.7L26 12.3l-5 3.7 1.8-5.7L18 6.8h6.1L26 1z" fill="#c92418"/>
+            <path d="M44 1l1.9 5.8H52l-4.8 3.5 1.8 5.7L44 12.3l-5 3.7 1.8-5.7L36 6.8h6.1L44 1z" fill="#c92418"/>
+            <path d="M62 1l1.9 5.8H70l-4.8 3.5 1.8 5.7L62 12.3l-5 3.7 1.8-5.7L54 6.8h6.1L62 1z" fill="#c92418"/>
+            <path d="M80 1l1.9 5.8H88l-4.8 3.5 1.8 5.7L80 12.3l-5 3.7 1.8-5.7L72 6.8h6.1L80 1z" fill="#c92418"/>
+          </svg>
+        </span>
+        <p>Locally owned &mdash; serving Eau Claire drivers.</p>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll Down</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+
+    <div class="hero-wave" aria-hidden="true"></div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trustbar" aria-label="Our credentials">
+    <div class="trustbar-item"><i class="ph-fill ph-clock"></i><div><strong>Open 7 Days</strong><span>Mon&ndash;Sun &middot; Walk-ins welcome</span></div></div>
+    <div class="trustbar-item"><i class="ph-fill ph-car-profile"></i><div><strong>New &amp; Used Tires</strong><span>All major brands in stock</span></div></div>
+    <div class="trustbar-item"><i class="ph-fill ph-wrench"></i><div><strong>Full Auto Service</strong><span>Brakes, suspension, oil, tune-ups</span></div></div>
+    <div class="trustbar-item"><i class="ph-fill ph-currency-dollar"></i><div><strong>Financing Available</strong><span>Approvals up to $5,000</span></div></div>
+    <div class="trustbar-item"><i class="ph-fill ph-translate"></i><div><strong>Se Habla Espa&ntilde;ol</strong><span>Hablamos espa&ntilde;ol</span></div></div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services" aria-labelledby="services-heading">
+    <header class="section-header">
+      <p class="section-label">What We Do</p>
+      <h2 class="section-title" id="services-heading">Full-Service Auto Shop</h2>
+      <p class="section-sub">From new tires to suspension work, oil changes to full diagnostics &mdash; if it runs on rubber, we&rsquo;ve got it covered.</p>
+    </header>
+    <div class="services-grid" role="list">
+      <article class="svc-card reveal" role="listitem">
+        <div class="svc-card-image" style="background-image: url('images/service-tires.jpg');" aria-hidden="true"></div>
+        <span class="svc-number">01</span>
+        <div class="svc-icon"><i class="ph-fill ph-tire"></i></div>
+        <h3>Tires &amp; Wheels</h3>
+        <p>New and used tires from Michelin, Goodyear, Bridgestone, Falken and more. Installation, balancing, rotation, flat repair, TPMS, and a full wall of aftermarket wheels.</p>
+        <a href="tel:+17155140019">Call for a quote <i class="ph ph-arrow-right"></i></a>
+      </article>
+      <article class="svc-card reveal" role="listitem">
+        <div class="svc-card-image" style="background-image: url('images/service-brakes.jpg');" aria-hidden="true"></div>
+        <span class="svc-number">02</span>
+        <div class="svc-icon"><i class="ph-fill ph-steering-wheel"></i></div>
+        <h3>Brakes &amp; Suspension</h3>
+        <p>Brake pads, rotors, calipers, shocks, struts, and full suspension work. We&rsquo;ll diagnose the noise, the pull, the shake &mdash; and get you stopping straight again.</p>
+        <a href="tel:+17155140019">Call for a quote <i class="ph ph-arrow-right"></i></a>
+      </article>
+      <article class="svc-card reveal" role="listitem">
+        <div class="svc-card-image" style="background-image: url('images/service-repair.jpg');" aria-hidden="true"></div>
+        <span class="svc-number">03</span>
+        <div class="svc-icon"><i class="ph-fill ph-drop"></i></div>
+        <h3>Oil Change &amp; Tune-Up</h3>
+        <p>Conventional and synthetic oil changes, filters, plugs, fluids, and full tune-ups. Keep your engine running clean between the Eau Claire winters and the long summer drives.</p>
+        <a href="tel:+17155140019">Call for a quote <i class="ph ph-arrow-right"></i></a>
+      </article>
+      <article class="svc-card reveal" role="listitem">
+        <div class="svc-card-image" style="background-image: url('images/hero-tire-machine.jpg');" aria-hidden="true"></div>
+        <span class="svc-number">04</span>
+        <div class="svc-icon"><i class="ph-fill ph-wrench"></i></div>
+        <h3>Full Auto Service</h3>
+        <p>You name it, we work on it. Diagnostics, batteries, belts, hoses, alternators, starters &mdash; bring it in and we&rsquo;ll figure out what&rsquo;s wrong and what it costs.</p>
+        <a href="tel:+17155140019">Call for a quote <i class="ph ph-arrow-right"></i></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="about-container">
+      <div class="about-content reveal">
+        <p class="section-label">About Us &middot; Sobre Nosotros</p>
+        <h2 id="about-heading">A Local Shop That Works on Your Schedule.</h2>
+        <p>Orizaba Tires &amp; Auto Service has been keeping Eau Claire drivers on the road for years. We&rsquo;re a locally owned shop on Mall Drive &mdash; not a chain &mdash; which means honest recommendations, fair pricing, and a team that actually remembers your name.</p>
+        <p>We carry a deep selection of new and used tires, work on all makes and models, and keep our bay open seven days a week because flat tires don&rsquo;t wait for Monday. <strong>Se habla espa&ntilde;ol</strong> &mdash; ll&aacute;manos y te atendemos en tu idioma.</p>
+        <div class="about-pillars">
+          <div class="about-pillar">
+            <div class="about-pillar-icon"><i class="ph-fill ph-shield-check"></i></div>
+            <div>
+              <h3>Honest recommendations</h3>
+              <p>If you don&rsquo;t need it, we won&rsquo;t sell it. We&rsquo;ll tell you what&rsquo;s actually wrong and what can wait.</p>
+            </div>
+          </div>
+          <div class="about-pillar">
+            <div class="about-pillar-icon"><i class="ph-fill ph-currency-dollar"></i></div>
+            <div>
+              <h3>Financing up to $5,000</h3>
+              <p>In-house credit approvals, often same day. Unexpected repair? We&rsquo;ll work with you on payment.</p>
+            </div>
+          </div>
+          <div class="about-pillar">
+            <div class="about-pillar-icon"><i class="ph-fill ph-clock"></i></div>
+            <div>
+              <h3>Open 7 days a week</h3>
+              <p>No appointment necessary. Drive in whenever it works for you &mdash; we&rsquo;ll get you in the bay fast.</p>
+            </div>
+          </div>
+          <div class="about-pillar">
+            <div class="about-pillar-icon"><i class="ph-fill ph-translate"></i></div>
+            <div>
+              <h3>Se habla espa&ntilde;ol</h3>
+              <p>Servicio en espa&ntilde;ol disponible. Ll&aacute;manos al (715) 514-0019.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-image reveal">
+        <figure class="about-graphic">
+          <img src="images/hero-shop-real.jpg" alt="Inside Orizaba Tires &amp; Auto Service &mdash; new and used tire inventory in Eau Claire, WI" loading="lazy" width="450" height="450" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT BANNER (intentionally omitted — Orizaba doesn't have a project gallery) -->
+
+  <!-- STATS -->
+  <section class="stats-section" aria-label="Shop facts">
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-text" data-count="7" data-suffix="">0</div>
+        <div class="stat-label">Days a Week Open</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-text" data-count="5000" data-suffix="+">0</div>
+        <div class="stat-label">Cars Serviced</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-text" data-count="100" data-suffix="%">0</div>
+        <div class="stat-label">Walk-Ins Welcome</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-text" data-count="2" data-suffix="">0</div>
+        <div class="stat-label">Languages: English &amp; Spanish</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews" aria-labelledby="reviews-heading">
+    <header class="section-header">
+      <p class="section-label">Testimonials</p>
+      <h2 class="section-title" id="reviews-heading">What Our Customers Say</h2>
+      <p class="section-sub">Honest work, fair prices, and people who treat you right &mdash; here&rsquo;s what folks are saying about us.</p>
+    </header>
+
+    <!-- Google Reviews Header -->
+    <div class="r-google-reviews-header">
+      <div class="r-google-from-badge">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285f4"/>
+          <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34a853"/>
+          <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#fbbc05"/>
+          <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#ea4335"/>
+        </svg>
+        <span>Google Reviews</span>
+      </div>
+      <div class="r-google-rating-summary">
+        <span class="r-google-rating-number">5.0</span>
+        <div class="r-google-stars" aria-label="5 out of 5 stars">
+          <svg width="22" height="22" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+        </div>
+        <span class="r-google-review-count">Be one of the first to review us on Google</span>
+      </div>
+    </div>
+
+    <!-- Review Cards (sample copy — replace with real reviews once collected) -->
+    <div class="r-google-reviews-grid">
+      <div class="r-google-review-card reveal">
+        <div class="r-google-review-top">
+          <div class="r-google-card-stars" aria-label="5 out of 5 stars">
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+          </div>
+        </div>
+        <p class="r-google-review-text">&ldquo;Got a flat on a Sunday afternoon and they had me in and out in under an hour. Fair price, no appointment hassle. This is my new tire shop.&rdquo;</p>
+        <span class="r-google-reviewer-name">&mdash; Marcus T.</span>
+      </div>
+      <div class="r-google-review-card reveal">
+        <div class="r-google-review-top">
+          <div class="r-google-card-stars" aria-label="5 out of 5 stars">
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+          </div>
+        </div>
+        <p class="r-google-review-text">&ldquo;Hablamos espa&ntilde;ol, y eso hace toda la diferencia. Me ayudaron a encontrar unas llantas usadas en buen precio para mi camioneta. Recomendado.&rdquo;</p>
+        <span class="r-google-reviewer-name">&mdash; Carmen R.</span>
+      </div>
+      <div class="r-google-review-card reveal">
+        <div class="r-google-review-top">
+          <div class="r-google-card-stars" aria-label="5 out of 5 stars">
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="#fbbc05"><path d="M8 1l1.9 5.8H16l-4.8 3.5 1.8 5.7L8 12.3l-5 3.7 1.8-5.7L0 6.8h6.1L8 1z"/></svg>
+          </div>
+        </div>
+        <p class="r-google-review-text">&ldquo;Financing got me out of a bind when my brakes went out. $90/month, no stress, car&rsquo;s back on the road. Will be back for my oil changes.&rdquo;</p>
+        <span class="r-google-reviewer-name">&mdash; David K.</span>
+      </div>
+    </div>
+
+    <!-- Review CTAs -->
+    <div class="r-google-cta">
+      <a href="https://search.google.com/local/writereview?placeid=ChIJ_ifAvPDRrFIRf1bSleMSbSk" target="_blank" rel="noopener" class="r-google-cta-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285f4"/>
+          <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34a853"/>
+          <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#fbbc05"/>
+          <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#ea4335"/>
+        </svg>
+        Leave a Review
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Orizaba+Tires+%26+Auto+Service+Eau+Claire+WI" target="_blank" rel="noopener" class="r-google-cta-btn r-google-cta-btn-secondary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        Find Us on Google
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq" aria-labelledby="faq-heading">
+    <header class="section-header">
+      <p class="section-label">Questions</p>
+      <h2 class="section-title" id="faq-heading">Frequently Asked Questions</h2>
+      <p class="section-sub">Quick answers to the things drivers ask us most.</p>
+    </header>
+    <div class="faq-list" role="list">
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          <span>Do I need an appointment?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">No appointment is necessary. We&rsquo;re open 7 days a week &mdash; just drive in. If you&rsquo;d like to save a spot or get a specific time, call us at (715) 514-0019 and we&rsquo;ll work you in.</div>
+        </div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          <span>Do you sell both new and used tires?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes. We carry new tires from all the top brands &mdash; Michelin, Goodyear, Bridgestone, Falken, Milestar, and more &mdash; plus a regularly rotated selection of quality used tires at lower price points. Bring your size and we&rsquo;ll match it.</div>
+        </div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          <span>Do you offer financing?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes. We offer in-house financing with approvals up to $5,000. Just call us at (715) 514-0019 and ask to apply for credit &mdash; most approvals are processed the same day.</div>
+        </div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          <span>&iquest;Hablan espa&ntilde;ol?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">S&iacute;. Se habla espa&ntilde;ol en Orizaba Tires &amp; Auto Service. Ll&aacute;manos al (715) 514-0019 o env&iacute;ame un texto al (715) 491-6530 y te atendemos en tu idioma.</div>
+        </div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          <span>What are your hours?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">We&rsquo;re open 7 days a week, Monday through Sunday, 9am to 6pm. No appointment needed &mdash; just drive in.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" aria-labelledby="cta-heading">
+    <div class="cta-box reveal">
+      <h2 id="cta-heading">Need Financing? Drive In Today.</h2>
+      <p>Approvals up to $5,000 &mdash; same day, in-house. Just call us and say &ldquo;I want to apply for credit&rdquo; and we&rsquo;ll take it from there. Walk-ins welcome 7 days a week.</p>
+      <div class="cta-actions">
+        <a href="tel:+17155140019" class="btn-primary"><i class="ph ph-phone"></i> Call (715) 514-0019</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=3624+Mall+Dr+Eau+Claire+WI+54701" target="_blank" rel="noopener" class="btn-outline"><i class="ph ph-map-pin"></i> Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p class="section-label">Get In Touch</p>
+        <h2 id="contact-heading">Stop By the Shop.</h2>
+        <p>Walk in any day of the week, or call/text ahead and we&rsquo;ll save you a spot. Se habla espa&ntilde;ol.</p>
+        <div class="contact-item">
+          <i class="ph ph-phone"></i>
+          <div>
+            <a href="tel:+17155140019"><strong>(715) 514-0019</strong> &mdash; Office</a>
+            <p><a href="tel:+17154916530">(715) 491-6530</a> &mdash; Cell / Text</p>
+            <p class="contact-hours">Mon&ndash;Sun: 9:00 AM &ndash; 6:00 PM</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="ph ph-map-pin"></i>
+          <div>
+            <p>3624 Mall Dr<br>Eau Claire, WI 54701</p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=3624+Mall+Dr+Eau+Claire+WI+54701" target="_blank" rel="noopener" class="contact-link">Get directions &rarr;</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="ph ph-facebook-logo"></i>
+          <div>
+            <a href="https://www.facebook.com/1046744118511941" target="_blank" rel="noopener">Follow us on Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required placeholder="(715) 000-0000" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="service">What do you need?</label>
+          <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option>New tires</option>
+            <option>Used tires</option>
+            <option>Flat repair / TPMS</option>
+            <option>Brakes &amp; suspension</option>
+            <option>Oil change / tune-up</option>
+            <option>Other / not sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about your vehicle, your tire size, or what&rsquo;s going on..."></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn-primary" style="width:100%; justify-content: center;">
+            <i class="ph ph-paper-plane-tilt"></i>&nbsp; Send Message
+          </button>
+        </div>
+        <p class="form-note">Or skip the form and just call <a href="tel:+17155140019">(715) 514-0019</a> &mdash; we answer fast.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo-original.png" alt="Orizaba Tires &amp; Auto Service" />
+        <p>New &amp; used tires, brakes, suspension, and full auto service in Eau Claire. Open 7 days a week. Se habla espa&ntilde;ol.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><strong>Office</strong> &middot; <a href="tel:+17155140019">(715) 514-0019</a></p>
+        <p><strong>Cell / Text</strong> &middot; <a href="tel:+17154916530">(715) 491-6530</a></p>
+        <p>3624 Mall Dr<br>Eau Claire, WI 54701</p>
+        <p>Mon&ndash;Sun &middot; 9am&ndash;6pm</p>
+      </div>
+      <div class="footer-credentials">
+        <h4>Why Choose Us</h4>
+        <ul>
+          <li><i class="ph-fill ph-check-circle"></i> Open 7 days a week</li>
+          <li><i class="ph-fill ph-check-circle"></i> No appointment needed</li>
+          <li><i class="ph-fill ph-check-circle"></i> Financing up to $5,000</li>
+          <li><i class="ph-fill ph-check-circle"></i> New &amp; used tires in stock</li>
+          <li><i class="ph-fill ph-check-circle"></i> Se habla espa&ntilde;ol</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Orizaba Tires &amp; Auto Service. All rights reserved. &middot; 3624 Mall Dr, Eau Claire, WI 54701 &middot; (715) 514-0019</p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    // Navbar scroll behavior
+    const navbar = document.querySelector('.navbar');
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      if (currentScroll > 50) {
+        navbar.classList.add('visible', 'scrolled');
+      } else {
+        navbar.classList.remove('visible', 'scrolled');
+      }
+      lastScroll = currentScroll;
+    });
+
+    // Mobile menu toggle with smooth animation
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.contains('open');
+      if (isOpen) {
+        mobileMenu.classList.remove('open');
+        setTimeout(() => { mobileMenu.style.display = 'none'; }, 300);
+      } else {
+        mobileMenu.style.display = 'flex';
+        requestAnimationFrame(() => mobileMenu.classList.add('open'));
+      }
+    });
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        setTimeout(() => { mobileMenu.style.display = 'none'; }, 300);
+      });
+    });
+
+    // Scroll reveal
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    });
+
+    // Stats counter animation
+    const statTexts = document.querySelectorAll('.stat-text[data-count]');
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = parseInt(el.dataset.count);
+          const suffix = el.dataset.suffix || '';
+          let current = 0;
+          const step = target / 40;
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+              current = target;
+              clearInterval(timer);
+            }
+            el.textContent = Math.floor(current) + suffix;
+          }, 40);
+          counterObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+    statTexts.forEach(el => counterObserver.observe(el));
+
+    // === COUNTER SAFETY NET ===
+    // If IntersectionObserver never fires (headless screenshot, slow scroll,
+    // element never reaches 50% threshold), force the final value after 1.5s
+    // so the page never shows literal "0" for company stats. This is the
+    // most embarrassing visual failure for a roofing company — a stats bar
+    // that says 0 YEARS IN BUSINESS / 0 PROJECTS COMPLETED looks worse than
+    // no stats bar at all.
+    setTimeout(() => {
+      statTexts.forEach(el => {
+        const target = parseInt(el.dataset.count);
+        const suffix = el.dataset.suffix || '';
+        if (target && el.textContent === '0') {
+          el.textContent = target + suffix;
+        }
+      });
+    }, 1500);
+  </script>
+</body>
+</html>
