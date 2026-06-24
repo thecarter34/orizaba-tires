@@ -65,7 +65,7 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
 
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -691,7 +691,7 @@
       border-right: 1px solid var(--border-color);
     }
     .stat-item:last-child { border-right: none; }
-    .stat-text { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; color: var(--text-primary); line-height: 1; letter-spacing: 0.02em; }
+    .stat-text { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; color: var(--text-primary); line-height: 1; letter-spacing: 0.02em; overflow: hidden; }
     .stat-label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 10px; font-weight: 500; }
     /* Counter animation */
     .stat-text.counting { transition: none; }
@@ -769,8 +769,8 @@
     /* ================================ */
     .faq { padding: var(--section-padding); background: var(--bg-primary); }
     .faq-list { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
-    .faq-item { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); overflow: hidden; transition: border-color 0.2s, box-shadow 0.2s; }
-    .faq-item.open { border-color: var(--accent); box-shadow: 0 4px 20px var(--accent-glow); }
+    .faq-item { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); overflow: hidden; transition: border-color 0.2s, box-shadow 0.2s; margin-bottom: 12px; }
+    .faq-item:last-child { margin-bottom: 0; }
     .faq-question {
       width: 100%; text-align: left; padding: 20px 24px;
       display: flex; justify-content: space-between; align-items: center; gap: 16px;
@@ -1049,13 +1049,13 @@
       <article class="svc-card reveal" role="listitem">
         <div class="svc-card-image" style="background-image: url('images/service-repair.jpg');" aria-hidden="true"></div>
         <span class="svc-number">03</span>
-        <div class="svc-icon"><i class="ph-fill ph-drop"></i></div>
+        <div class="svc-icon"><i class="ph-fill ph-lightning"></i></div>
         <h3>Oil Change &amp; Tune-Up</h3>
         <p>Conventional and synthetic oil changes, filters, plugs, fluids, and full tune-ups. Keep your engine running clean between the Eau Claire winters and the long summer drives.</p>
         <a href="tel:+17155140019">Call for a quote <i class="ph ph-arrow-right"></i></a>
       </article>
       <article class="svc-card reveal" role="listitem">
-        <div class="svc-card-image" style="background-image: url('images/hero-tire-machine.jpg');" aria-hidden="true"></div>
+        <div class="svc-card-image" style="background-image: url('images/service-repair.jpg');" aria-hidden="true"></div>
         <span class="svc-number">04</span>
         <div class="svc-icon"><i class="ph-fill ph-wrench"></i></div>
         <h3>Full Auto Service</h3>
@@ -1372,7 +1372,7 @@
   <footer class="site-footer" role="contentinfo">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo-original.png" alt="Orizaba Tires &amp; Auto Service" />
+        <img src="images/logo.png" alt="Orizaba Tires &amp; Auto Service" />
         <p>New &amp; used tires, brakes, suspension, and full auto service in Eau Claire. Open 7 days a week. Se habla espa&ntilde;ol.</p>
       </div>
       <div class="footer-links">
@@ -1395,11 +1395,9 @@
       <div class="footer-credentials">
         <h4>Why Choose Us</h4>
         <ul>
-          <li><i class="ph-fill ph-check-circle"></i> Open 7 days a week</li>
-          <li><i class="ph-fill ph-check-circle"></i> No appointment needed</li>
+          <li><i class="ph-fill ph-check-circle"></i> Free estimates, upfront pricing</li>
+          <li><i class="ph-fill ph-check-circle"></i> All makes &amp; models serviced</li>
           <li><i class="ph-fill ph-check-circle"></i> Financing up to $5,000</li>
-          <li><i class="ph-fill ph-check-circle"></i> New &amp; used tires in stock</li>
-          <li><i class="ph-fill ph-check-circle"></i> Se habla espa&ntilde;ol</li>
         </ul>
       </div>
     </div>
