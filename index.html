@@ -337,25 +337,9 @@
       background: var(--bg-dark);
     }
 
-    /* ORIZABA: Real shop photo background, dark overlay for text contrast */
-    .hero::before {
-      content: '';
-      position: absolute; inset: 0;
-      background-image: url('images/hero-shop-real.jpg');
-      background-size: cover;
-      background-position: center;
-      opacity: 0.75;
-      filter: saturate(0.95) contrast(1.05);
-      z-index: 0;
-    }
-    .hero::after {
-      content: '';
-      position: absolute; inset: 0;
-      background:
-        radial-gradient(ellipse at center, rgba(14,12,12,0.15) 0%, rgba(14,12,12,0.45) 55%, rgba(14,12,12,0.78) 100%),
-        linear-gradient(to bottom, rgba(14,12,12,0.2) 0%, rgba(14,12,12,0.7) 100%);
-      z-index: 1;
-    }
+    /* ORIZABA: Bold text-only hero — no photo background */
+    .hero::before { display: none; }
+    .hero::after { display: none; }
     .hero > * { position: relative; z-index: 2; }
     .hero-grid { z-index: 1; opacity: 0.4; }
 
@@ -410,11 +394,17 @@
     .hero-content { position: relative; z-index: 2; max-width: 900px; width: 100%; }
 
     /* Logo */
-    .hero-logo { margin-bottom: 24px; animation: logoIn 0.8s ease 0.2s both; }
-    .hero-logo img {
-      max-width: 200px; width: 100%; height: auto; margin: 0 auto; display: block;
-      border-radius: 8px;
-      box-shadow: 0 4px 32px rgba(201, 36, 24, 0.25);
+    /* Logo wordmark text */
+    .hero-logo {
+      margin-bottom: 24px; animation: logoIn 0.8s ease 0.2s both;
+      font-family: var(--font-display);
+      font-size: clamp(4rem, 14vw, 11rem);
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-primary);
+      line-height: 1;
+      text-shadow: 0 0 80px rgba(201,36,24,0.3), 0 2px 40px rgba(0,0,0,0.5);
     }
     @keyframes logoIn {
       from { opacity: 0; transform: translateY(-16px); }
@@ -971,9 +961,7 @@
     <div class="hero-orb hero-orb-3" aria-hidden="true"></div>
 
     <div class="hero-content">
-      <div class="hero-logo">
-        <img src="images/logo-original.png" alt="Orizaba Tires &amp; Auto Service" loading="eager" />
-      </div>
+      <div class="hero-logo">ORIZABA</div>
 
       <div class="hero-badge">
         <i class="ph-fill ph-star"></i>
